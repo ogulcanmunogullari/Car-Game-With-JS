@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Race Gambling Game</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<main class="flex flex-col justify-center w m-auto mt-28">
+    <div>
+        <div class="flex justify-center mb-5">
+            <div>
+                <h2 class="text-3xl">
+                    Black is Yours
+                </h2>
+            </div>
+        </div>
+        <div class="flex flex-col">
+            <div class="flex">
+                <div class="asset-floor">   
+                    <div id="whiteCar" class="transition-all asset-white-car mt-11">
+                    </div>
+                    <div id="blackCar" class="transition-all asset-black-car mt-14">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-around">
+                <button onclick="add()" class="border-8 py-5 px-10">
+                    RACE
+                </button>
+                <div>
+                    <h2 id="winner" class="text-3xl mt-4">
+    
+                    </h2>
+                </div>
+                <button onclick="deleted()" class="border-8 py-5 px-10">
+                    RESET
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

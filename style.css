@@ -1,0 +1,38 @@
+.w{
+    width: 894px;
+}
+.asset-floor{
+    background-image: url(./img/floor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 894px;
+    height: 245px;
+}
+.asset-white-car{
+    background-image: url(./img/white-car.png);
+    width: 129px;
+    height: 51px;
+    transition: all;
+}
+.asset-black-car{
+    background-image: url(./img/black-car.png);
+    width: 129px;
+    height: 51px;
+    transition: all;
+}
+.car-black-win{
+    transform: translate(765px,0);
+    transition-duration: 3000ms;
+}
+.car-white-lose{
+    transform: translate(765px,0);
+    transition-duration: 5000ms;
+}
+.car-black-lose{
+    transform: translate(765px,0);
+    transition-duration: 5000ms;
+}
+.car-white-win{
+    transform: translate(765px,0);
+    transition-duration: 3000ms;
+}
